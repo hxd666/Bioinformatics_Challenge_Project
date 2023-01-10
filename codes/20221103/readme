@@ -1,0 +1,5 @@
+get.sample.ID.r: 	script to obtain the IDs and race information for UNITE bacth I & II
+UNITE_batch1.ID.tbx: 	sample IDs for UNITE batch I
+UNITE_batch2.ID.tbx: 	sample IDs for UNITE batch II
+pca.pipeline.sh: 	a pipeline to compute the PCA
+plot.r:			script to draw the PCA plot

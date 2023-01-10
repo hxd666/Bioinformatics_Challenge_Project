@@ -1,0 +1,1875 @@
+Predictor: H1B1G1
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model All: amygdala"
+[1] "Model All: CA1"
+[1] "Model All: CA2"
+[1] "Model All: CA4"
+[1] "Model All: entorhinal"
+[1] "Model All: inforbfront"
+[1] "Model All: infpar"
+[1] "Model All: loccoer"
+[1] "Model All: midfront"
+[1] "Model All: suptemp"
+[1] "Model All: CTEstage"
+[1] "Model All: subnigra"
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Cases: amygdala"
+[1] "Model Cases: CA1"
+[1] "Model Cases: CA2"
+[1] "Model Cases: CA4"
+[1] "Model Cases: entorhinal"
+[1] "Model Cases: inforbfront"
+[1] "Model Cases: infpar"
+[1] "Model Cases: loccoer"
+[1] "Model Cases: midfront"
+[1] "Model Cases: suptemp"
+[1] "Model Cases: CTEstage"
+[1] "Model Cases: subnigra"
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Age-Stratified: amygdala"
+[1] "Model Age-Stratified: CA1"
+[1] "Model Age-Stratified: CA2"
+[1] "Model Age-Stratified: CA4"
+[1] "Model Age-Stratified: entorhinal"
+[1] "Model Age-Stratified: inforbfront"
+[1] "Model Age-Stratified: infpar"
+[1] "Model Age-Stratified: loccoer"
+[1] "Model Age-Stratified: midfront"
+[1] "Model Age-Stratified: suptemp"
+[1] "Model Age-Stratified: CTEstage"
+[1] "Model Age-Stratified: subnigra"
+There were 30 warnings (use warnings() to see them)
+Predictor: H1B1G2
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model All: amygdala"
+[1] "Model All: CA1"
+[1] "Model All: CA2"
+[1] "Model All: CA4"
+[1] "Model All: entorhinal"
+[1] "Model All: inforbfront"
+[1] "Model All: infpar"
+[1] "Model All: loccoer"
+[1] "Model All: midfront"
+[1] "Model All: suptemp"
+[1] "Model All: CTEstage"
+[1] "Model All: subnigra"
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Cases: amygdala"
+[1] "Model Cases: CA1"
+[1] "Model Cases: CA2"
+[1] "Model Cases: CA4"
+[1] "Model Cases: entorhinal"
+[1] "Model Cases: inforbfront"
+[1] "Model Cases: infpar"
+[1] "Model Cases: loccoer"
+[1] "Model Cases: midfront"
+[1] "Model Cases: suptemp"
+[1] "Model Cases: CTEstage"
+[1] "Model Cases: subnigra"
+Warning messages:
+1: In sqrt(diag(vc)) : NaNs produced
+2: In sqrt(diag(vc)) : NaNs produced
+3: In sqrt(diag(vc)) : NaNs produced
+4: In sqrt(diag(vc)) : NaNs produced
+5: In sqrt(diag(vc)) : NaNs produced
+6: In sqrt(diag(vc)) : NaNs produced
+7: In sqrt(diag(vc)) : NaNs produced
+8: In sqrt(diag(vc)) : NaNs produced
+9: In sqrt(diag(vc)) : NaNs produced
+10: In sqrt(diag(vc)) : NaNs produced
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Age-Stratified: amygdala"
+[1] "Model Age-Stratified: CA1"
+[1] "Model Age-Stratified: CA2"
+[1] "Model Age-Stratified: CA4"
+[1] "Model Age-Stratified: entorhinal"
+[1] "Model Age-Stratified: inforbfront"
+[1] "Model Age-Stratified: infpar"
+[1] "Model Age-Stratified: loccoer"
+[1] "Model Age-Stratified: midfront"
+[1] "Model Age-Stratified: suptemp"
+[1] "Model Age-Stratified: CTEstage"
+Error in polr(as.formula(model3.form), na.action = "na.omit", Hess = T,  : 
+  attempt to find suitable starting values failed
+Calls: with -> with.mids -> eval -> eval -> polr
+In addition: There were 12 warnings (use warnings() to see them)
+Execution halted
+Predictor: H1B1G3
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model All: amygdala"
+[1] "Model All: CA1"
+[1] "Model All: CA2"
+[1] "Model All: CA4"
+[1] "Model All: entorhinal"
+[1] "Model All: inforbfront"
+[1] "Model All: infpar"
+[1] "Model All: loccoer"
+[1] "Model All: midfront"
+[1] "Model All: suptemp"
+[1] "Model All: CTEstage"
+[1] "Model All: subnigra"
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Cases: amygdala"
+[1] "Model Cases: CA1"
+[1] "Model Cases: CA2"
+[1] "Model Cases: CA4"
+[1] "Model Cases: entorhinal"
+Error in optim(s0, fmin, gmin, method = "BFGS", ...) : 
+  initial value in 'vmmin' is not finite
+Calls: with ... with.mids -> eval -> eval -> polr -> polr.fit -> optim
+In addition: Warning message:
+glm.fit: fitted probabilities numerically 0 or 1 occurred 
+Execution halted
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Age-Stratified: amygdala"
+Error in optim(s0, fmin, gmin, method = "BFGS", ...) : 
+  initial value in 'vmmin' is not finite
+Calls: with ... with.mids -> eval -> eval -> polr -> polr.fit -> optim
+In addition: Warning message:
+glm.fit: fitted probabilities numerically 0 or 1 occurred 
+Execution halted
+Predictor: H1B1G4
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model All: amygdala"
+[1] "Model All: CA1"
+[1] "Model All: CA2"
+[1] "Model All: CA4"
+[1] "Model All: entorhinal"
+[1] "Model All: inforbfront"
+[1] "Model All: infpar"
+[1] "Model All: loccoer"
+[1] "Model All: midfront"
+[1] "Model All: suptemp"
+[1] "Model All: CTEstage"
+[1] "Model All: subnigra"
+There were 50 or more warnings (use warnings() to see the first 50)
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Cases: amygdala"
+[1] "Model Cases: CA1"
+[1] "Model Cases: CA2"
+[1] "Model Cases: CA4"
+[1] "Model Cases: entorhinal"
+[1] "Model Cases: inforbfront"
+[1] "Model Cases: infpar"
+[1] "Model Cases: loccoer"
+[1] "Model Cases: midfront"
+[1] "Model Cases: suptemp"
+[1] "Model Cases: CTEstage"
+[1] "Model Cases: subnigra"
+There were 50 or more warnings (use warnings() to see the first 50)
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Age-Stratified: amygdala"
+[1] "Model Age-Stratified: CA1"
+[1] "Model Age-Stratified: CA2"
+[1] "Model Age-Stratified: CA4"
+[1] "Model Age-Stratified: entorhinal"
+[1] "Model Age-Stratified: inforbfront"
+[1] "Model Age-Stratified: infpar"
+[1] "Model Age-Stratified: loccoer"
+[1] "Model Age-Stratified: midfront"
+[1] "Model Age-Stratified: suptemp"
+[1] "Model Age-Stratified: CTEstage"
+[1] "Model Age-Stratified: subnigra"
+There were 50 or more warnings (use warnings() to see the first 50)
+Predictor: H1B2G1
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model All: amygdala"
+[1] "Model All: CA1"
+[1] "Model All: CA2"
+[1] "Model All: CA4"
+[1] "Model All: entorhinal"
+[1] "Model All: inforbfront"
+[1] "Model All: infpar"
+[1] "Model All: loccoer"
+[1] "Model All: midfront"
+[1] "Model All: suptemp"
+[1] "Model All: CTEstage"
+[1] "Model All: subnigra"
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Cases: amygdala"
+[1] "Model Cases: CA1"
+[1] "Model Cases: CA2"
+[1] "Model Cases: CA4"
+[1] "Model Cases: entorhinal"
+[1] "Model Cases: inforbfront"
+[1] "Model Cases: infpar"
+[1] "Model Cases: loccoer"
+[1] "Model Cases: midfront"
+[1] "Model Cases: suptemp"
+[1] "Model Cases: CTEstage"
+[1] "Model Cases: subnigra"
+Warning messages:
+1: In sqrt(diag(vc)) : NaNs produced
+2: In sqrt(diag(vc)) : NaNs produced
+3: In sqrt(diag(vc)) : NaNs produced
+4: In sqrt(diag(vc)) : NaNs produced
+5: In sqrt(diag(vc)) : NaNs produced
+6: In sqrt(diag(vc)) : NaNs produced
+7: In sqrt(diag(vc)) : NaNs produced
+8: In sqrt(diag(vc)) : NaNs produced
+9: In sqrt(diag(vc)) : NaNs produced
+10: In sqrt(diag(vc)) : NaNs produced
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Age-Stratified: amygdala"
+[1] "Model Age-Stratified: CA1"
+[1] "Model Age-Stratified: CA2"
+[1] "Model Age-Stratified: CA4"
+[1] "Model Age-Stratified: entorhinal"
+[1] "Model Age-Stratified: inforbfront"
+[1] "Model Age-Stratified: infpar"
+[1] "Model Age-Stratified: loccoer"
+[1] "Model Age-Stratified: midfront"
+[1] "Model Age-Stratified: suptemp"
+[1] "Model Age-Stratified: CTEstage"
+[1] "Model Age-Stratified: subnigra"
+There were 20 warnings (use warnings() to see them)
+Predictor: H1B3G1
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model All: amygdala"
+[1] "Model All: CA1"
+[1] "Model All: CA2"
+Error in svd(X) : infinite or missing values in 'x'
+Calls: pool ... summary -> summary.polr -> vcov -> vcov.polr -> ginv -> svd
+In addition: There were 20 warnings (use warnings() to see them)
+Execution halted
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Cases: amygdala"
+[1] "Model Cases: CA1"
+[1] "Model Cases: CA2"
+[1] "Model Cases: CA4"
+[1] "Model Cases: entorhinal"
+[1] "Model Cases: inforbfront"
+[1] "Model Cases: infpar"
+[1] "Model Cases: loccoer"
+[1] "Model Cases: midfront"
+[1] "Model Cases: suptemp"
+[1] "Model Cases: CTEstage"
+[1] "Model Cases: subnigra"
+Warning messages:
+1: In sqrt(diag(vc)) : NaNs produced
+2: In sqrt(diag(vc)) : NaNs produced
+3: In sqrt(diag(vc)) : NaNs produced
+4: In sqrt(diag(vc)) : NaNs produced
+5: In sqrt(diag(vc)) : NaNs produced
+6: In sqrt(diag(vc)) : NaNs produced
+7: In sqrt(diag(vc)) : NaNs produced
+8: In sqrt(diag(vc)) : NaNs produced
+9: In sqrt(diag(vc)) : NaNs produced
+10: In sqrt(diag(vc)) : NaNs produced
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Age-Stratified: amygdala"
+[1] "Model Age-Stratified: CA1"
+[1] "Model Age-Stratified: CA2"
+Error in svd(X) : infinite or missing values in 'x'
+Calls: pool ... summary -> summary.polr -> vcov -> vcov.polr -> ginv -> svd
+In addition: There were 50 or more warnings (use warnings() to see the first 50)
+Execution halted
+Predictor: H2A1G2
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model All: amygdala"
+[1] "Model All: CA1"
+[1] "Model All: CA2"
+[1] "Model All: CA4"
+[1] "Model All: entorhinal"
+[1] "Model All: inforbfront"
+[1] "Model All: infpar"
+[1] "Model All: loccoer"
+[1] "Model All: midfront"
+[1] "Model All: suptemp"
+[1] "Model All: CTEstage"
+[1] "Model All: subnigra"
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Cases: amygdala"
+[1] "Model Cases: CA1"
+[1] "Model Cases: CA2"
+[1] "Model Cases: CA4"
+[1] "Model Cases: entorhinal"
+[1] "Model Cases: inforbfront"
+[1] "Model Cases: infpar"
+[1] "Model Cases: loccoer"
+[1] "Model Cases: midfront"
+[1] "Model Cases: suptemp"
+[1] "Model Cases: CTEstage"
+[1] "Model Cases: subnigra"
+Warning messages:
+1: In sqrt(diag(vc)) : NaNs produced
+2: In sqrt(diag(vc)) : NaNs produced
+3: In sqrt(diag(vc)) : NaNs produced
+4: In sqrt(diag(vc)) : NaNs produced
+5: In sqrt(diag(vc)) : NaNs produced
+6: In sqrt(diag(vc)) : NaNs produced
+7: In sqrt(diag(vc)) : NaNs produced
+8: In sqrt(diag(vc)) : NaNs produced
+9: In sqrt(diag(vc)) : NaNs produced
+10: In sqrt(diag(vc)) : NaNs produced
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Age-Stratified: amygdala"
+[1] "Model Age-Stratified: CA1"
+[1] "Model Age-Stratified: CA2"
+[1] "Model Age-Stratified: CA4"
+[1] "Model Age-Stratified: entorhinal"
+[1] "Model Age-Stratified: inforbfront"
+[1] "Model Age-Stratified: infpar"
+[1] "Model Age-Stratified: loccoer"
+[1] "Model Age-Stratified: midfront"
+[1] "Model Age-Stratified: suptemp"
+[1] "Model Age-Stratified: CTEstage"
+[1] "Model Age-Stratified: subnigra"
+Warning messages:
+1: In sqrt(diag(vc)) : NaNs produced
+2: In sqrt(diag(vc)) : NaNs produced
+3: In sqrt(diag(vc)) : NaNs produced
+4: In sqrt(diag(vc)) : NaNs produced
+5: In sqrt(diag(vc)) : NaNs produced
+6: In sqrt(diag(vc)) : NaNs produced
+7: In sqrt(diag(vc)) : NaNs produced
+8: In sqrt(diag(vc)) : NaNs produced
+9: In sqrt(diag(vc)) : NaNs produced
+10: In sqrt(diag(vc)) : NaNs produced
+Predictor: H2A2G1
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model All: amygdala"
+[1] "Model All: CA1"
+[1] "Model All: CA2"
+[1] "Model All: CA4"
+[1] "Model All: entorhinal"
+[1] "Model All: inforbfront"
+[1] "Model All: infpar"
+[1] "Model All: loccoer"
+[1] "Model All: midfront"
+[1] "Model All: suptemp"
+[1] "Model All: CTEstage"
+[1] "Model All: subnigra"
+There were 50 or more warnings (use warnings() to see the first 50)
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Cases: amygdala"
+[1] "Model Cases: CA1"
+[1] "Model Cases: CA2"
+[1] "Model Cases: CA4"
+[1] "Model Cases: entorhinal"
+[1] "Model Cases: inforbfront"
+[1] "Model Cases: infpar"
+[1] "Model Cases: loccoer"
+[1] "Model Cases: midfront"
+[1] "Model Cases: suptemp"
+[1] "Model Cases: CTEstage"
+[1] "Model Cases: subnigra"
+There were 50 or more warnings (use warnings() to see the first 50)
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Age-Stratified: amygdala"
+[1] "Model Age-Stratified: CA1"
+[1] "Model Age-Stratified: CA2"
+[1] "Model Age-Stratified: CA4"
+[1] "Model Age-Stratified: entorhinal"
+[1] "Model Age-Stratified: inforbfront"
+[1] "Model Age-Stratified: infpar"
+[1] "Model Age-Stratified: loccoer"
+[1] "Model Age-Stratified: midfront"
+[1] "Model Age-Stratified: suptemp"
+[1] "Model Age-Stratified: CTEstage"
+[1] "Model Age-Stratified: subnigra"
+There were 50 or more warnings (use warnings() to see the first 50)
+Predictor: H2A2G2
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model All: amygdala"
+[1] "Model All: CA1"
+[1] "Model All: CA2"
+[1] "Model All: CA4"
+[1] "Model All: entorhinal"
+[1] "Model All: inforbfront"
+[1] "Model All: infpar"
+[1] "Model All: loccoer"
+[1] "Model All: midfront"
+[1] "Model All: suptemp"
+[1] "Model All: CTEstage"
+[1] "Model All: subnigra"
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Cases: amygdala"
+[1] "Model Cases: CA1"
+[1] "Model Cases: CA2"
+[1] "Model Cases: CA4"
+[1] "Model Cases: entorhinal"
+[1] "Model Cases: inforbfront"
+[1] "Model Cases: infpar"
+[1] "Model Cases: loccoer"
+[1] "Model Cases: midfront"
+[1] "Model Cases: suptemp"
+[1] "Model Cases: CTEstage"
+[1] "Model Cases: subnigra"
+Warning messages:
+1: In sqrt(diag(vc)) : NaNs produced
+2: In sqrt(diag(vc)) : NaNs produced
+3: In sqrt(diag(vc)) : NaNs produced
+4: In sqrt(diag(vc)) : NaNs produced
+5: In sqrt(diag(vc)) : NaNs produced
+6: In sqrt(diag(vc)) : NaNs produced
+7: In sqrt(diag(vc)) : NaNs produced
+8: In sqrt(diag(vc)) : NaNs produced
+9: In sqrt(diag(vc)) : NaNs produced
+10: In sqrt(diag(vc)) : NaNs produced
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Age-Stratified: amygdala"
+[1] "Model Age-Stratified: CA1"
+[1] "Model Age-Stratified: CA2"
+Error in optim(s0, fmin, gmin, method = "BFGS", ...) : 
+  initial value in 'vmmin' is not finite
+Calls: with ... with.mids -> eval -> eval -> polr -> polr.fit -> optim
+In addition: Warning message:
+glm.fit: fitted probabilities numerically 0 or 1 occurred 
+Execution halted
+Predictor: H1_dosage
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model All: amygdala"
+[1] "Model All: CA1"
+[1] "Model All: CA2"
+[1] "Model All: CA4"
+[1] "Model All: entorhinal"
+[1] "Model All: inforbfront"
+[1] "Model All: infpar"
+[1] "Model All: loccoer"
+[1] "Model All: midfront"
+[1] "Model All: suptemp"
+[1] "Model All: CTEstage"
+[1] "Model All: subnigra"
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Cases: amygdala"
+[1] "Model Cases: CA1"
+[1] "Model Cases: CA2"
+[1] "Model Cases: CA4"
+[1] "Model Cases: entorhinal"
+[1] "Model Cases: inforbfront"
+[1] "Model Cases: infpar"
+[1] "Model Cases: loccoer"
+[1] "Model Cases: midfront"
+[1] "Model Cases: suptemp"
+[1] "Model Cases: CTEstage"
+[1] "Model Cases: subnigra"
+Warning messages:
+1: In sqrt(diag(vc)) : NaNs produced
+2: In sqrt(diag(vc)) : NaNs produced
+3: In sqrt(diag(vc)) : NaNs produced
+4: In sqrt(diag(vc)) : NaNs produced
+5: In sqrt(diag(vc)) : NaNs produced
+6: In sqrt(diag(vc)) : NaNs produced
+7: In sqrt(diag(vc)) : NaNs produced
+8: In sqrt(diag(vc)) : NaNs produced
+9: In sqrt(diag(vc)) : NaNs produced
+10: In sqrt(diag(vc)) : NaNs produced
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Age-Stratified: amygdala"
+[1] "Model Age-Stratified: CA1"
+[1] "Model Age-Stratified: CA2"
+[1] "Model Age-Stratified: CA4"
+[1] "Model Age-Stratified: entorhinal"
+[1] "Model Age-Stratified: inforbfront"
+[1] "Model Age-Stratified: infpar"
+[1] "Model Age-Stratified: loccoer"
+[1] "Model Age-Stratified: midfront"
+[1] "Model Age-Stratified: suptemp"
+[1] "Model Age-Stratified: CTEstage"
+[1] "Model Age-Stratified: subnigra"
+There were 30 warnings (use warnings() to see them)
+Predictor: H1_beta_dosage
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model All: amygdala"
+[1] "Model All: CA1"
+[1] "Model All: CA2"
+[1] "Model All: CA4"
+[1] "Model All: entorhinal"
+[1] "Model All: inforbfront"
+[1] "Model All: infpar"
+[1] "Model All: loccoer"
+[1] "Model All: midfront"
+[1] "Model All: suptemp"
+[1] "Model All: CTEstage"
+[1] "Model All: subnigra"
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Cases: amygdala"
+[1] "Model Cases: CA1"
+[1] "Model Cases: CA2"
+[1] "Model Cases: CA4"
+[1] "Model Cases: entorhinal"
+[1] "Model Cases: inforbfront"
+[1] "Model Cases: infpar"
+[1] "Model Cases: loccoer"
+[1] "Model Cases: midfront"
+[1] "Model Cases: suptemp"
+[1] "Model Cases: CTEstage"
+[1] "Model Cases: subnigra"
+There were 20 warnings (use warnings() to see them)
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Age-Stratified: amygdala"
+[1] "Model Age-Stratified: CA1"
+[1] "Model Age-Stratified: CA2"
+[1] "Model Age-Stratified: CA4"
+[1] "Model Age-Stratified: entorhinal"
+[1] "Model Age-Stratified: inforbfront"
+[1] "Model Age-Stratified: infpar"
+[1] "Model Age-Stratified: loccoer"
+[1] "Model Age-Stratified: midfront"
+[1] "Model Age-Stratified: suptemp"
+[1] "Model Age-Stratified: CTEstage"
+[1] "Model Age-Stratified: subnigra"
+There were 40 warnings (use warnings() to see them)
+Predictor: H2_alpha_dosage
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model All: amygdala"
+[1] "Model All: CA1"
+[1] "Model All: CA2"
+[1] "Model All: CA4"
+[1] "Model All: entorhinal"
+[1] "Model All: inforbfront"
+[1] "Model All: infpar"
+[1] "Model All: loccoer"
+[1] "Model All: midfront"
+[1] "Model All: suptemp"
+[1] "Model All: CTEstage"
+[1] "Model All: subnigra"
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Cases: amygdala"
+[1] "Model Cases: CA1"
+[1] "Model Cases: CA2"
+[1] "Model Cases: CA4"
+[1] "Model Cases: entorhinal"
+[1] "Model Cases: inforbfront"
+[1] "Model Cases: infpar"
+[1] "Model Cases: loccoer"
+[1] "Model Cases: midfront"
+[1] "Model Cases: suptemp"
+[1] "Model Cases: CTEstage"
+[1] "Model Cases: subnigra"
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Age-Stratified: amygdala"
+[1] "Model Age-Stratified: CA1"
+[1] "Model Age-Stratified: CA2"
+[1] "Model Age-Stratified: CA4"
+[1] "Model Age-Stratified: entorhinal"
+[1] "Model Age-Stratified: inforbfront"
+[1] "Model Age-Stratified: infpar"
+[1] "Model Age-Stratified: loccoer"
+[1] "Model Age-Stratified: midfront"
+[1] "Model Age-Stratified: suptemp"
+[1] "Model Age-Stratified: CTEstage"
+[1] "Model Age-Stratified: subnigra"
+Warning messages:
+1: In sqrt(diag(vc)) : NaNs produced
+2: In sqrt(diag(vc)) : NaNs produced
+3: In sqrt(diag(vc)) : NaNs produced
+4: In sqrt(diag(vc)) : NaNs produced
+5: In sqrt(diag(vc)) : NaNs produced
+6: In sqrt(diag(vc)) : NaNs produced
+7: In sqrt(diag(vc)) : NaNs produced
+8: In sqrt(diag(vc)) : NaNs produced
+9: In sqrt(diag(vc)) : NaNs produced
+10: In sqrt(diag(vc)) : NaNs produced
+Predictor: H1_gamma_dosage
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model All: amygdala"
+[1] "Model All: CA1"
+[1] "Model All: CA2"
+[1] "Model All: CA4"
+[1] "Model All: entorhinal"
+[1] "Model All: inforbfront"
+[1] "Model All: infpar"
+[1] "Model All: loccoer"
+[1] "Model All: midfront"
+[1] "Model All: suptemp"
+[1] "Model All: CTEstage"
+[1] "Model All: subnigra"
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Cases: amygdala"
+[1] "Model Cases: CA1"
+[1] "Model Cases: CA2"
+[1] "Model Cases: CA4"
+[1] "Model Cases: entorhinal"
+[1] "Model Cases: inforbfront"
+[1] "Model Cases: infpar"
+[1] "Model Cases: loccoer"
+[1] "Model Cases: midfront"
+[1] "Model Cases: suptemp"
+[1] "Model Cases: CTEstage"
+[1] "Model Cases: subnigra"
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Age-Stratified: amygdala"
+[1] "Model Age-Stratified: CA1"
+[1] "Model Age-Stratified: CA2"
+[1] "Model Age-Stratified: CA4"
+[1] "Model Age-Stratified: entorhinal"
+[1] "Model Age-Stratified: inforbfront"
+[1] "Model Age-Stratified: infpar"
+[1] "Model Age-Stratified: loccoer"
+[1] "Model Age-Stratified: midfront"
+[1] "Model Age-Stratified: suptemp"
+[1] "Model Age-Stratified: CTEstage"
+[1] "Model Age-Stratified: subnigra"
+There were 20 warnings (use warnings() to see them)
+Predictor: H2_gamma_dosage
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model All: amygdala"
+[1] "Model All: CA1"
+[1] "Model All: CA2"
+[1] "Model All: CA4"
+[1] "Model All: entorhinal"
+[1] "Model All: inforbfront"
+[1] "Model All: infpar"
+[1] "Model All: loccoer"
+[1] "Model All: midfront"
+[1] "Model All: suptemp"
+[1] "Model All: CTEstage"
+[1] "Model All: subnigra"
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Cases: amygdala"
+[1] "Model Cases: CA1"
+[1] "Model Cases: CA2"
+[1] "Model Cases: CA4"
+[1] "Model Cases: entorhinal"
+[1] "Model Cases: inforbfront"
+[1] "Model Cases: infpar"
+[1] "Model Cases: loccoer"
+[1] "Model Cases: midfront"
+[1] "Model Cases: suptemp"
+[1] "Model Cases: CTEstage"
+[1] "Model Cases: subnigra"
+Warning messages:
+1: In sqrt(diag(vc)) : NaNs produced
+2: In sqrt(diag(vc)) : NaNs produced
+3: In sqrt(diag(vc)) : NaNs produced
+4: In sqrt(diag(vc)) : NaNs produced
+5: In sqrt(diag(vc)) : NaNs produced
+6: In sqrt(diag(vc)) : NaNs produced
+7: In sqrt(diag(vc)) : NaNs produced
+8: In sqrt(diag(vc)) : NaNs produced
+9: In sqrt(diag(vc)) : NaNs produced
+10: In sqrt(diag(vc)) : NaNs produced
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+[1] "Model Age-Stratified: amygdala"
+[1] "Model Age-Stratified: CA1"
+[1] "Model Age-Stratified: CA2"
+[1] "Model Age-Stratified: CA4"
+[1] "Model Age-Stratified: entorhinal"
+[1] "Model Age-Stratified: inforbfront"
+[1] "Model Age-Stratified: infpar"
+[1] "Model Age-Stratified: loccoer"
+[1] "Model Age-Stratified: midfront"
+[1] "Model Age-Stratified: suptemp"
+[1] "Model Age-Stratified: CTEstage"
+[1] "Model Age-Stratified: subnigra"
+There were 20 warnings (use warnings() to see them)

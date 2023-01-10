@@ -1,0 +1,14 @@
+20221025: filter the phenotype file by GWAS IDs for UNITE study without unmatched samples
+20221027: convert the file format in MAPT imputation
+20221103: Principal Component Analysis for two batches of sample
+20221107: Principal Component Analysis for UNITE and DIAGNOSE with reference panel from 1000G project
+20221109: Plot for PCA for UNITE and DIAGNOSE with reference panel from 1000G project
+20221114: Report the frequency of imputed subhaplotypes 
+20221118: Curate the updated phenotype file for UNITE (including missing subjects); Observe the PCA plot; Do the association test for Euro only
+20221121: metal analysis for the results on 20221118
+20221128: Additional analysis: PCs and age stratum
+20221204: Association Test: subhaplotypes and dosages in all sample
+#20221205: Recalculate the FDR (corrected by each model & each phenotype)
+20221211_1: Replicate 20221204 in European Only
+20221211_2: Association Test: Every Body in European Only using New FDR metrics (+ CTE and Dementia)
+

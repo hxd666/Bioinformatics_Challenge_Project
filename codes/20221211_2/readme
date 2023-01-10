@@ -1,0 +1,5 @@
+This is the association for All European Only samples
+
+Model1:
+	Outcome ~ Predictor + AgeDeath + PCs
+

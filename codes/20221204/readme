@@ -1,0 +1,23 @@
+pipelines to  conduct the association test
+two arguments are required:
+1. subject (the subject we used in the association test: all, cases, age)
+2. predictors (the predictors we used in the association test: H1B1G1, H1B1G2, H1_dosage, H1_beta_dosage, etc)
+
+Effect size in the interaction is for interaction term; effect size in other models is for predictor term
+
+If subject == 'all':
+	Model 1: pheno ~ predictor + age + PCs
+	Model 2: pheno ~ predictor + age + duration + PCs (in football players only)
+	Model 3: pheno ~ predictor + age + duration + predictor * duration + PCs (in football players only)
+
+If subject == 'cases':
+	Model 1: pheno ~ predictor + age + PCs (in CTE cases only)
+        Model 2: pheno ~ predictor + age + duration + PCs (in CTE cases & football players only)
+        Model 3: pheno ~ predictor + age + duration + predictor * duration + PCs (in CTE cases & football players only)
+
+If subject == 'age':
+	# each model was tested in older group (age > median_age) and younger group (age <= median_age) separately except for model 4
+	Model 1: pheno ~ predictor + age + PCs 
+	Model 2: pheno ~ predictor + age + duration + PCs (in football players only) 
+	Model 3: pheno ~ predictor + age + duration + predictor*duration + PCs (in football players only)
+	Model 4: pheno ~ predictor + age_strata + predictor*age_strata + PCs

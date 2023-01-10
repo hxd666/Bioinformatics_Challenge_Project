@@ -1,0 +1,7 @@
+genotypename:     /restricted/projectnb/cte/Challenge_Project_2022/xdhan/_PCA/UNITE/2nd_batch/unite2.bed
+snpname:        /restricted/projectnb/cte/Challenge_Project_2022/xdhan/_PCA/UNITE/2nd_batch/unite2.bed.bim
+indivname:      /restricted/projectnb/cte/Challenge_Project_2022/xdhan/_PCA/UNITE/2nd_batch/unite2.bed.fam
+outputformat:   EIGENSTRAT
+genotypeoutname:        /restricted/projectnb/cte/Challenge_Project_2022/xdhan/_PCA/UNITE/2nd_batch/input/unite2.eigenstratgeno
+snpoutname:     /restricted/projectnb/cte/Challenge_Project_2022/xdhan/_PCA/UNITE/2nd_batch/input/input/unite2.snp
+indivoutname:   /restricted/projectnb/cte/Challenge_Project_2022/xdhan/_PCA/UNITE/2nd_batch/input/uniet2.ind /restricted/projectnb/cte/Challenge_Project_2022/xdhan/_PCA/UNITE/2nd_batch/input/convert.par

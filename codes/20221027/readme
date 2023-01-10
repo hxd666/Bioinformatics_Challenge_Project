@@ -1,0 +1,3 @@
+convert.bim.R: convert the base position of SNPs in the MAPT region from hg38 to hg19
+convert.gen.R: convert the imputation result from impute.v2 to gen format
+subhaplotypes.R: convert the haplotypes of surrogate SNPs to structural subhaplotypes
