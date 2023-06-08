@@ -11,4 +11,23 @@
 #20221205: Recalculate the FDR (corrected by each model & each phenotype)
 20221211_1: Replicate 20221204 in European Only
 20221211_2: Association Test: Every Body in European Only using New FDR metrics (+ CTE and Dementia)
-
+20230116: Permutation Tests for association tests in 20221211_2
+20230119: Calculate P-values for association tests in 20230116
+20230124: Redo the permutation using two sets: global and local (endophenotypes) traits. (adding a new phenotype AT8 Positive Tisue)
+20230201: Redo the association test using log-transformed AT8 Positive Tisue
+20230202: Perform the interaction test using footyr and H1B1G1 for football players of European descent only 
+20230203: Perform the association test using H1B1G1 for subjects of African descent
+20230204: Perform the association test using H1B1G1 for three additional phenotypes 1) FAQ, 2) CDS, 3) BRIEF BRI for UNITE study
+GWAS_UNITE: GWAS dir for UNITE study (European only)
+20230208: Perform the association test using imputed data by Yichi.
+20230212: Check the common individuals with H1B1G1 between two imputation methods.
+20230217: Perform the association test using imputed data by Yichi (only H1B1G1 3 classes)
+20230222_1: Check the common individuals whose two subhaplotypes are excatly the same using 9-class neural network
+20230222_2: Using H1B1G1 as dominant risk factor (using Yichi's result; three classes)
+20230223_3: Using H1B1G1 as dominant risk factor (using IMPUTE.v2)
+20230223_4: Using H1B1G1 as dominant risk factor (common variants)
+20230323: Association test of HLA types (/restricted/projectnb/cte/Challenge_Project_2022/imputation/HLA/2nd_batch/convert.r is the code to convert imputed HLA types from Michigan Server to what we need in the association)
+20230420: Extract the GWAS summary of top SNP (rs6910507 in CA2) in other endophenotypes & Count how many of them are homozygotes with minor allele G in rs6910507
+20230429: Clean data for RNA-seq analysis
+20230515: Association of rs6910507 with semiquantitative tau burden in CA2 among CTE only, with quantitative variables for each region (CA2/CA3).
+GWAS_UNITE: All the scripts for GWAS study
