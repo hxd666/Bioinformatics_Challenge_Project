@@ -26,7 +26,7 @@ GWAS_UNITE: GWAS dir for UNITE study (European only)
 20230222_2: Using H1B1G1 as dominant risk factor (using Yichi's result; three classes)
 20230223_3: Using H1B1G1 as dominant risk factor (using IMPUTE.v2)
 20230223_4: Using H1B1G1 as dominant risk factor (common variants)
-20230323: Association test of HLA types (/restricted/projectnb/cte/Challenge_Project_2022/imputation/HLA/2nd_batch/convert.r is the code to convert imputed HLA types from Michigan Server to what we need in the association)
+20230323: Association test of HLA types (scripts/imputation/HLA/convert.r is the code to convert imputed HLA types from Michigan Server to what we need in the association)
 20230420: Extract the GWAS summary of top SNP (rs6910507 in CA2) in other endophenotypes & Count how many of them are homozygotes with minor allele G in rs6910507
 20230429: Clean data for RNA-seq analysis
 20230515: Association of rs6910507 with semiquantitative tau burden in CA2 among CTE only, with quantitative variables for each region (CA2/CA3).
