@@ -1,0 +1,2 @@
+Subjects	Model	Phenotype	Predictor	Freq	N	Effect	SE	P.value	Batch	A1	A2
+Euro	1	HipCA23.log	rs6910507	0.075	146	0.56	0.555	0.31495442513101	I	A	T

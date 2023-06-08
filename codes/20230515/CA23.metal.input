@@ -1,0 +1,25 @@
+GENOMICCONTROL OFF
+AVERAGEFREQ ON
+scheme STDERR
+CUSTOMVARIABLE N
+#CUSTOMVARIABLE N.case
+#CUSTOMVARIABLE N.ctrl
+
+OUTFILE CA23ratio.assoc.metal. .txt
+
+#ADDFILTER Effect >= -5
+#ADDFILTER Effect <= 5
+#ADDFILTER Freq >= 0.05
+#ADDFILTER Freq <= 0.95
+MARKER Predictor
+FREQ Freq
+Allele A1 A2
+PVALUE P.value
+EFFECT Effect
+STDERR SE
+
+PROCESS results/CA23ratio.assoc.batchI.txt
+PROCESS results/CA23ratio.assoc.batchII.txt
+
+ANALYZE HETEROGENEITY
+

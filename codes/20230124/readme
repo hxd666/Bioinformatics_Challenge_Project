@@ -1,0 +1,4 @@
+imputation.r: included the imputed AT8 Positive Tissue phenotype; edited based on /restricted/projectnb/cte/Challenge_Project_2022/xdhan/scripts/20221128/assoc.r
+assoc.r: association test including AT8 Positive Tissue; edited based on /restricted/projectnb/cte/Challenge_Project_2022/xdhan/scripts/20221211_2/assoc.r
+permutation.r: permutation test; edited based on /restricted/projectnb/cte/Challenge_Project_2022/xdhan/scripts/20230116/permutation.r
+cal_p_values.r: adjusted p value based on cal_p_values.r/restricted/projectnb/cte/Challenge_Project_2022/xdhan/scripts/20230119/cal_p_values.r

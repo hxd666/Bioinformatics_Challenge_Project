@@ -1,0 +1,519 @@
+Loading required package: mice
+
+Attaching package: 'mice'
+
+The following objects are masked from 'package:base':
+
+    cbind, rbind
+
+Loading required package: MASS
+Loading required package: rms
+Loading required package: Hmisc
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: 'Hmisc'
+
+The following objects are masked from 'package:base':
+
+    format.pval, units
+
+Loading required package: SparseM
+
+Attaching package: 'SparseM'
+
+The following object is masked from 'package:base':
+
+    backsolve
+
+
+   0    1  Yes <NA> 
+ 165  371    1    0 
+
+   0    1 <NA> 
+ 165  372    0 
+
+       0        1        2        3        4 Stage IV     <NA> 
+     165       45       53      133      139        1        1 
+
+   0    1    2    3    4 <NA> 
+ 165   45   53  133  140    1 
+
+   0    1    2    3 <NA> 
+  91  140  117  179   10 
+
+   0    1    2    3 <NA> 
+ 119  162   84  162   10 
+
+   0    1    2    3 <NA> 
+ 153  137   99  117   31 
+
+   0    1    2    3 <NA> 
+ 155  183   76  107   16 
+
+   0    1    2    3 <NA> 
+  72  120  114  223    8 
+
+   0    1    2    3 <NA> 
+ 139  163   90  135   10 
+
+   0    1    2    3 <NA> 
+ 166  128   81  154    8 
+
+   0    1    2    3 <NA> 
+  62  103  182  158   32 
+
+   0    1    2    3 <NA> 
+  98  139   91  208    1 
+
+   0    1    2    3 <NA> 
+ 107  122  108  192    8 
+
+   0    1    2    3 <NA> 
+ 155  150  135   90    7 
+
+    1     2     3     4     5     6 White  <NA> 
+  457    54     1     1     5     6     1    12 
+
+   1    2    3    4    5    6 <NA> 
+ 458   54    1    1    5    6   12 
+
+   0    1  Yes <NA> 
+ 180  324    1   32 
+
+  -7.58502911038579   -7.28317626574192    -7.1821921246839   -7.16007020759663 
+                  1                   1                   1                   1 
+  -7.08927715560553   -6.85896511481271   -6.83172059270614   -6.77936206421374 
+                  1                   1                   1                   1 
+  -6.61807520386768   -6.61210503688118   -6.55921331827359   -6.55780288080423 
+                  2                   1                   1                   1 
+  -6.55008083471032   -6.54519767188525   -6.54172424011938   -6.53274937835868 
+                  1                   1                   1                   1 
+  -6.49962705345449   -6.48838726570498   -6.44906540963667   -6.42594660428664 
+                  1                   1                   1                   1 
+  -6.42532912973784   -6.42163226785652   -6.39134527692225   -6.38302675004716 
+                  1                   1                   1                   1 
+  -6.34187344946807   -6.33903817680037   -6.32721704280485    -6.3244229644294 
+                  1                   1                   1                   1 
+  -6.32219330910213   -6.31719468719729    -6.3144284337044   -6.30343931212881 
+                  1                   1                   1                   1 
+  -6.29311032657715   -6.28181684811564   -6.24300757294389   -6.22617473479366 
+                  1                   1                   1                   1 
+  -6.21711122864031   -6.21460809842219   -6.21011819314934   -6.19235748948737 
+                  1                   1                   1                   1 
+  -6.19089157180488   -6.18456397707382   -6.18020667170486   -6.16581793425276 
+                  1                   1                   1                   1 
+  -6.12797179176265   -6.10440930612412   -6.08841607318443   -6.05931521401616 
+                  1                   1                   1                   1 
+  -6.05206416923691   -6.04360030152851   -6.03939508086553   -6.03062126230918 
+                  1                   1                   1                   1 
+  -6.01248391433206   -5.96852957582549   -5.95996588004861   -5.86783198666271 
+                  1                   1                   1                   1 
+  -5.84684485749804   -5.84373443508365   -5.84304454198971   -5.84028971931086 
+                  1                   1                   2                   1 
+  -5.80947637921526   -5.80781054508025   -5.77893714825696   -5.76067033686325 
+                  1                   1                   1                   1 
+  -5.75781636314869   -5.73651229927912   -5.71869308739196   -5.68133628582637 
+                  1                   1                   1                   1 
+  -5.62793316237276    -5.6273771434538   -5.62571093923605   -5.62321682681663 
+                  1                   1                   1                   1 
+  -5.60267097328779   -5.59861197705066   -5.56750485636365   -5.55994190468053 
+                  1                   1                   1                   1 
+  -5.54345093575386   -5.53353349909652   -5.52697609855036   -5.49165942662546 
+                  1                   1                   1                   1 
+  -5.48657651600874   -5.47171882596743   -5.46437195087812   -5.45989556220409 
+                  1                   1                   1                   1 
+  -5.45637567120631   -5.44057241412891   -5.42819828740256   -5.41935569492509 
+                  1                   1                   1                   1 
+  -5.39570971255669   -5.38409314356944   -5.37887687440645   -5.37606271517289 
+                  1                   1                   1                   1 
+  -5.35955467601923    -5.3527735523441   -5.34226925407722   -5.32056297549536 
+                  1                   1                   1                   1 
+  -5.32035849742492    -5.3142435170983   -5.30796374359984   -5.30272707503674 
+                  1                   1                   1                   1 
+  -5.29034919689886   -5.27303955936377   -5.25391777925135   -5.21710611112321 
+                  1                   1                   1                   1 
+  -5.21158936303821   -5.18088994967207    -5.1622142835557   -5.11051087952351 
+                  1                   1                   1                   1 
+  -5.10588047601299   -5.09374520081926   -5.08967850143671   -5.08143336540497 
+                  1                   1                   1                   1 
+  -5.03980667139654   -5.03364806840533   -5.02463280374011    -5.0211402787414 
+                  1                   1                   1                   1 
+  -4.99880554234268   -4.96170228298708   -4.94935206567936   -4.94737884446124 
+                  1                   1                   1                   1 
+  -4.93840766009937    -4.9324250335597   -4.88846191013858   -4.88567805469187 
+                  1                   1                   1                   1 
+  -4.88316598885045   -4.87448857442291   -4.87239624987249   -4.85800004767266 
+                  1                   1                   1                   1 
+  -4.80447514782246   -4.78789182280339   -4.78477543528782   -4.78274303575984 
+                  1                   1                   1                   1 
+  -4.75077415984688    -4.7500803577839    -4.7313004631323   -4.72654717215469 
+                  1                   1                   1                   1 
+  -4.71576660733012   -4.70687074081443   -4.66800349515966   -4.63996869153079 
+                  1                   1                   1                   1 
+  -4.62618955321217   -4.58959215602477   -4.57038236050243   -4.55381189371295 
+                  1                   1                   1                   1 
+  -4.53760499982567   -4.52469680183821   -4.51935952957498   -4.50967820452887 
+                  1                   1                   1                   1 
+  -4.49532972030856   -4.49193079038158   -4.48961184535382   -4.43281479350599 
+                  1                   1                   1                   1 
+  -4.41985312021434   -4.39620669824772   -4.39207697052738   -4.38796422734064 
+                  1                   1                   1                   1 
+  -4.38370804745642   -4.35417803185414   -4.34219072617668   -4.33850748076039 
+                  1                   1                   1                   1 
+  -4.31279912405018   -4.30565836178273   -4.30107357226822    -4.2818555609076 
+                  1                   1                   1                   1 
+  -4.27716224206474   -4.27327985887199   -4.25170037299831   -4.23671490351383 
+                  1                   1                   1                   1 
+  -4.23339975440402   -4.21542803834516   -4.19365673934572   -4.18107961375676 
+                  1                   1                   1                   1 
+  -4.17709593501907   -4.11334391223188    -4.0962463695117    -4.0511701368383 
+                  2                   1                   1                   1 
+  -4.05099775771873   -4.02317805479431    -4.0096909626063   -4.00776327770898 
+                  1                   1                   1                   1 
+  -3.96737716556022   -3.91497736525458   -3.91437577101174   -3.89217135972555 
+                  1                   1                   1                   1 
+  -3.88479701917455   -3.88338695889181   -3.85895628449145   -3.83127285574304 
+                  1                   1                   1                   1 
+  -3.82965991500302   -3.81917038841353   -3.81376263626063   -3.79619743992256 
+                  1                   1                   1                   1 
+  -3.79202021303345   -3.78340993796017   -3.76800924528924    -3.7640341277147 
+                  1                   1                   1                   1 
+  -3.75301272404354   -3.72289135670564   -3.71501811172363   -3.69868739510502 
+                  1                   1                   1                   1 
+  -3.67080380738671   -3.65998106407129   -3.64310335147735   -3.62365366919623 
+                  1                   1                   1                   1 
+  -3.61073392957015    -3.5646108287686   -3.54602664123035   -3.53884007124071 
+                  1                   1                   1                   1 
+  -3.53564347821508   -3.51910292482228   -3.50866010541185   -3.50559169757466 
+                  1                   1                   1                   1 
+  -3.49849052624222   -3.49140659355264   -3.47567311373896   -3.47167349546648 
+                  1                   1                   1                   1 
+  -3.46139334536561   -3.43009080531714   -3.40918923159171   -3.40761794946508 
+                  1                   1                   1                   1 
+  -3.39397353657284   -3.35704653392687   -3.35117940014047    -3.3279655074559 
+                  1                   1                   1                   1 
+  -3.26063575911643   -3.21595509435722   -3.19028836801629   -3.13844857575559 
+                  1                   1                   1                   1 
+  -3.12969804622215   -3.05611942356909   -3.05471823870192   -3.04488050182072 
+                  1                   1                   1                   1 
+  -2.99102337782626   -2.97428394234812   -2.97314920155373   -2.94444997922694 
+                  1                   1                   1                   1 
+   -2.9297760078913    -2.9239512924594   -2.91093167186153   -2.88592764759921 
+                  1                   1                   1                   1 
+  -2.88158249686337   -2.84307985842208   -2.83264450587534   -2.79560354311017 
+                  1                   1                   1                   1 
+  -2.79107861155363   -2.77502368435533   -2.74530045688237   -2.74034614590303 
+                  1                   1                   1                   1 
+  -2.73780862326649   -2.72657574421765   -2.69987371981808   -2.67366326724352 
+                  1                   1                   1                   1 
+  -2.65933146805535   -2.65438621901666   -2.64662589911521   -2.63572488837061 
+                  1                   1                   1                   1 
+  -2.62789980691938    -2.6240032135766   -2.61648794508891   -2.59080064105197 
+                  1                   1                   1                   1 
+  -2.58648765015382   -2.53829476836738   -2.53725734513221   -2.53373561471017 
+                  1                   1                   1                   1 
+  -2.53286655871472   -2.51087697830983   -2.48134101422865   -2.46990375811008 
+                  1                   1                   1                   1 
+  -2.44089359212975   -2.41489190059596   -2.39149281235939   -2.38277614500339 
+                  1                   1                   1                   1 
+  -2.34442844225286    -2.3288880014151   -2.31612636356071   -2.30952914722848 
+                  1                   1                   1                   1 
+  -2.30064697236379   -2.28627876671974   -2.28114654963656   -2.26374906920885 
+                  1                   1                   1                   1 
+  -2.24589289892876   -2.24435392143114   -2.20763861568509   -2.20727491318972 
+                  1                   1                   1                   1 
+  -2.19397286987197   -2.13510648306987    -2.1180243783196   -2.07602339022137 
+                  1                   1                   1                   1 
+  -2.07147337203066   -2.05968597431449   -2.05063642144349   -1.99080814753822 
+                  1                   1                   1                   1 
+  -1.98399318960356   -1.97733993048735   -1.94663941490502   -1.93378396925747 
+                  1                   1                   1                   1 
+  -1.93205655476678   -1.88652299847303   -1.87598491235592   -1.87274612227788 
+                  1                   1                   1                   1 
+  -1.86449791806863   -1.79920713436321   -1.78464880999301   -1.77914733757729 
+                  1                   1                   1                   1 
+  -1.74223243375783   -1.71925835881402   -1.69279778247901   -1.68247107778426 
+                  1                   1                   1                   1 
+  -1.68188495699972   -1.65631465835634   -1.65524627659108   -1.64698402850807 
+                  1                   1                   1                   1 
+  -1.63259907329553    -1.6030086246692   -1.58701127987254   -1.57179536700959 
+                  1                   1                   1                   1 
+  -1.53916585944877   -1.49844230377793    -1.4786991656175   -1.47666555780605 
+                  1                   1                   1                   1 
+  -1.44741685685498   -1.44152381307423   -1.43262315694322   -1.42603360868891 
+                  1                   1                   1                   1 
+  -1.40502875917614   -1.39844791729246   -1.38814407077851   -1.36070459012089 
+                  1                   1                   1                   1 
+  -1.34109539951093   -1.29588343581493   -1.27968822157371   -1.27502493749471 
+                  1                   1                   1                   1 
+   -1.2698989544421   -1.26239319058881    -1.2389577012289   -1.23348400770032 
+                  1                   1                   1                   1 
+  -1.22585378991322   -1.20333634024551   -1.17428779645642     -1.169449001844 
+                  1                   1                   1                   1 
+  -1.13213287843624   -1.10041791783575    -1.0872866663382   -1.07560304336526 
+                  1                   1                   1                   1 
+  -1.05967911685088  -0.985884676826717  -0.979249168669408  -0.978551848267686 
+                  1                   1                   1                   1 
+ -0.977961369324243  -0.974235042685539  -0.950439727954782  -0.934872304960546 
+                  1                   1                   1                   1 
+ -0.897829690376405  -0.837200015662266   -0.82790675566332  -0.826738003521844 
+                  1                   1                   1                   1 
+ -0.766544021012379  -0.742427764965725    -0.7415163333671  -0.709634350065407 
+                  1                   1                   1                   1 
+ -0.703876534773031  -0.700639175598249  -0.692379475321037  -0.682076685246102 
+                  1                   1                   1                   1 
+  -0.65975495857061  -0.635744685399155  -0.620631189221209  -0.594546058215865 
+                  1                   1                   1                   1 
+ -0.572176342460307   -0.55977780105884   -0.54095670639539  -0.539604113863592 
+                  1                   1                   1                   1 
+  -0.52405947280296  -0.459041533171938  -0.450488101982356  -0.440134195643458 
+                  1                   1                   1                   1 
+ -0.383211076196318  -0.367646338757477  -0.323564895895615  -0.308029007856746 
+                  1                   1                   1                   1 
+ -0.302610279062702  -0.301082120074823  -0.274251336593849  -0.273061476166732 
+                  1                   1                   1                   1 
+ -0.268369761419408  -0.194490498946092  -0.172178373250933  -0.153840228022407 
+                  1                   1                   1                   1 
+ -0.124423283384276   -0.10904284266536 -0.0900910233270583 -0.0898065525829557 
+                  1                   1                   1                   1 
+-0.0571504138719485 -0.0524086530108939  -0.036024147617016 -0.0206650590835856 
+                  1                   1                   1                   1 
+ 0.0139344628564467  0.0306863216923242  0.0634563733267789  0.0860208032000378 
+                  1                   1                   1                   1 
+ 0.0877984005386659   0.117575014021383   0.123036766169375   0.123234814334629 
+                  1                   1                   1                   1 
+  0.127324922271475   0.136175518839738   0.202761236031411   0.224666391204731 
+                  1                   1                   1                   1 
+  0.230185895694007   0.279751458097395   0.290251019878899   0.292496464644984 
+                  1                   1                   1                   1 
+  0.343145634174286   0.359791781549939   0.373041085038952   0.389429895185975 
+                  1                   1                   1                   1 
+  0.431039283227592    0.53662435608763    0.54854906271733    0.68886251447409 
+                  1                   1                   1                   1 
+  0.696676445371837   0.725655028147785   0.739328707095684   0.759541010796714 
+                  1                   1                   1                   1 
+  0.761265536436231   0.765704558306135   0.771540066487259   0.821238238865736 
+                  1                   1                   1                   1 
+  0.870121549928021    0.87558164764596   0.947165560976232   0.948156385849156 
+                  1                   1                   1                   1 
+   1.14536100542164    1.17515256228165    1.17607659820518    1.19596885803678 
+                  1                   1                   1                   1 
+   1.20454134267737    1.23780450356199    1.24504583933289    1.25398764684204 
+                  1                   1                   1                   1 
+   1.28272390900856    1.28577903300488    1.43712672429497    1.47186591038823 
+                  1                   1                   1                   1 
+   1.49192181614623    1.53709515061027    1.64444958769452    1.92031303466935 
+                  1                   1                   1                   1 
+   2.04896004013218    2.06797416694727    2.30841277899728    2.33112502685087 
+                  1                   1                   1                   1 
+   2.79839638366378                <NA> 
+                  1                  81 
+Warning message:
+Number of logged events: 200 
+Warning message:
+Number of logged events: 1 
+
+ iter imp variable
+  1   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  1   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  1   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  1   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  1   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  1   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  1   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  1   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  1   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  1   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  2   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  2   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  2   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  2   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  2   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  2   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  2   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  2   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  2   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  2   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  3   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  3   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  3   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  3   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  3   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  3   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  3   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  3   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  3   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  3   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  4   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  4   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  4   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  4   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  4   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  4   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  4   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  4   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  4   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  4   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  5   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  5   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  5   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  5   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  5   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  5   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  5   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  5   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  5   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  5   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  6   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  6   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  6   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  6   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  6   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  6   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  6   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  6   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  6   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  6   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  7   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  7   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  7   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  7   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  7   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  7   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  7   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  7   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  7   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  7   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  8   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  8   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  8   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  8   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  8   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  8   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  8   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  8   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  8   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  8   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  9   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  9   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  9   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  9   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  9   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  9   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  9   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  9   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  9   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  9   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  10   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  10   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  10   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  10   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  10   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  10   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  10   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  10   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  10   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  10   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  11   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  11   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  11   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  11   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  11   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  11   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  11   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  11   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  11   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  11   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  12   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  12   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  12   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  12   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  12   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  12   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  12   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  12   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  12   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  12   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  13   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  13   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  13   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  13   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  13   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  13   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  13   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  13   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  13   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  13   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  14   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  14   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  14   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  14   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  14   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  14   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  14   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  14   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  14   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  14   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  15   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  15   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  15   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  15   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  15   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  15   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  15   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  15   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  15   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  15   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  16   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  16   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  16   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  16   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  16   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  16   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  16   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  16   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  16   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  16   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  17   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  17   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  17   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  17   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  17   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  17   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  17   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  17   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  17   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  17   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  18   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  18   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  18   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  18   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  18   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  18   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  18   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  18   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  18   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  18   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  19   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  19   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  19   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  19   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  19   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  19   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  19   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  19   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  19   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  19   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  20   1  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  20   2  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  20   3  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  20   4  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  20   5  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  20   6  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  20   7  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  20   8  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  20   9  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log
+  20   10  amygdala  CA1  CA2  CA4  entorhinal  inforbfront  infpar  loccoer  midfront  suptemp  subnigra  AT8PositiveTissue.log

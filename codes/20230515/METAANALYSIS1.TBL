@@ -1,0 +1,2 @@
+MarkerName	Allele1	Allele2	Freq1	FreqSE	Effect	StdErr	P-value	Direction	HetISq	HetChiSq	HetDf	HetPVal	N
+rs6910507	a	t	0.1150	0.0254	1.7740	0.2794	2.163e-10	++	80.9	5.235	1	0.02214	313

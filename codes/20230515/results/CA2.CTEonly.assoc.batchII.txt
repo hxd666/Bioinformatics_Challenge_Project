@@ -1,0 +1,2 @@
+Subjects	Model	Phenotype	Predictor	Freq	N	Effect	SE	P.value	Batch	A1	A2
+Euro	1	CA2	rs6910507	0.132	190	2.201	0.336	2.68593014496332e-09	II	A	T

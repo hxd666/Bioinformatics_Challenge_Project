@@ -1,0 +1,26 @@
+#run metal
+
+GENOMICCONTROL OFF
+AVERAGEFREQ ON
+scheme STDERR
+CUSTOMVARIABLE N
+#CUSTOMVARIABLE N.case
+#CUSTOMVARIABLE N.ctrl
+
+OUTFILE UNITE_H1B1G1.assoc. .txt
+
+#ADDFILTER BETA.snp >= -5
+#ADDFILTER BETA.snp <= 5
+ADDFILTER FREQ >= 0.01
+ADDFILTER FREQ <= 0.99
+MARKER Phenotype
+ALLELE A1 A2
+FREQ Freq
+PVALUE P.value
+EFFECT Effect
+STDERR SE
+
+PROCESS /restricted/projectnb/cte/Challenge_Project_2022/xdhan/scripts/20230208/results/Model1.Euro.assoc.batch1.txt
+PROCESS /restricted/projectnb/cte/Challenge_Project_2022/xdhan/scripts/20230208/results/Model1.Euro.assoc.batch2.txt
+
+ANALYZE HETEROGENEITY

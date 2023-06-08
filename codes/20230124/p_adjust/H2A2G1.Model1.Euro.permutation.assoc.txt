@@ -1,0 +1,16 @@
+Subjects	Model	Phenotype	Predictor	Freq	N	Effect	SE	P.value	FDR	Perm_P
+All	1	CTE	H2A2G1	0	445	NA	NA	NA	NA	NA
+All	1	DementiaHx	H2A2G1	0	428	NA	NA	NA	NA	NA
+All	1	amygdala	H2A2G1	0	445	All	1	amygdala	NA	NA
+All	1	CA1	H2A2G1	0	445	All	1	CA1	NA	NA
+All	1	CA2	H2A2G1	0	445	All	1	CA2	NA	NA
+All	1	CA4	H2A2G1	0	445	All	1	CA4	NA	NA
+All	1	entorhinal	H2A2G1	0	445	All	1	entorhinal	NA	NA
+All	1	inforbfront	H2A2G1	0	445	All	1	inforbfront	NA	NA
+All	1	infpar	H2A2G1	0	445	All	1	infpar	NA	NA
+All	1	loccoer	H2A2G1	0	445	All	1	loccoer	NA	NA
+All	1	midfront	H2A2G1	0	445	All	1	midfront	NA	NA
+All	1	suptemp	H2A2G1	0	445	All	1	suptemp	NA	NA
+All	1	CTEstage	H2A2G1	0	444	All	1	CTEstage	NA	NA
+All	1	subnigra	H2A2G1	0	445	All	1	subnigra	NA	NA
+All	1	AT8PositiveTissue.log	H2A2G1	0	445	NA	NA	NA	NA	NA
